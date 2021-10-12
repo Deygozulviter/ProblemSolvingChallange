@@ -12,7 +12,7 @@ public class BackMenu : MonoBehaviour
     {
         backButton.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(9);
+            SceneManager.LoadScene(0);
         });
     }
 }
